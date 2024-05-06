@@ -1,0 +1,56 @@
+/* reseteo de stilos */
+*{margin: 0;padding: 0; list-style: none; text-decoration: none; border: none; outline: none;}
+/* maqueta */
+
+/* cajas----------------------------------- */
+#caja1{
+    width: 350px; height: 425px;
+    float: left;
+    background: #e3e691; background-image: url(aceBunny.png); background-size: 200px; 
+    background-position: 50% 5%; background-repeat:no-repeat; 
+    border: 5px dotted rgb(225, 168, 25);
+    padding: 10px; margin: 10px;
+}
+
+#caja2{
+    width: 350px; height: 425px;
+    float: left;
+    background: #eca259; background-image: url(dangerDuck.png); background-size: 250px; 
+    background-position: 50% 5%; background-repeat:no-repeat; 
+    border: 5px dotted rgb(171, 14, 0);
+    padding: 10px; margin: 10px;
+}
+
+#caja3{
+    width: 350px; height: 425px;
+    float: left;
+    background: #e99997; background-image: url(Rev.png); background-size: 200px; 
+    background-position: 50% 5%; background-repeat:no-repeat; 
+    border: 5px dotted rgb(152, 11, 11);
+    padding: 10px; margin: 10px;
+}
+
+#caja4{
+    width: 350px; height: 425px;
+    float: left;
+    background: #d48cd5; background-image: url(SlamTas.png); background-size: 250px; 
+    background-position: 50% 5%; background-repeat:no-repeat; 
+    border: 5px dotted rgba(152, 25, 110, 0.795);
+    padding: 10px; margin: 10px;
+}
+
+/* cajas----------------------------------------- */
+.texto{
+    padding-top: 84%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+@font-face {
+    font-family: monster;
+    src: url(fonts/monster.ttf);
+}
+h1{
+    font-family: monster;
+    font-size: 100px;
+    text-align: center;
+}
